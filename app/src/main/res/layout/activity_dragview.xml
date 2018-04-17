@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.kyle.forgradle.testview.DragViewGroup2 android:id="@+id/dragview2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="254dp"
+        android:layout_height="170dp"
+        android:layout_gravity="left|top"
+        android:src="@drawable/miao" />
+
+    <ImageView
+        android:layout_width="254dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:src="@drawable/miao" />
+
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:text="TEST" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="254dp"
+        android:layout_height="170dp"
+        android:layout_gravity="right|bottom"
+        android:src="@drawable/miao" />
+
+    <com.example.kyle.forgradle.testview.LoadingView
+        android:id="@+id/load_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right" />
+
+    <ImageView
+        android:id="@+id/loading_circle1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/circle_blue" />
+
+    <ImageView
+        android:id="@+id/loading_circle2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/circle_red" />
+
+    <ImageView
+        android:id="@+id/loading_circle3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/circle_orange" />
+
+    <ImageView
+        android:id="@+id/loading_circle4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/circle_green" />
+
+
+</com.example.kyle.forgradle.testview.DragViewGroup2>

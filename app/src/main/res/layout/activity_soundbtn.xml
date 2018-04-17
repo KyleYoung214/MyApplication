@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/llayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onStartClick"
+                android:text="start" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onSoundClick"
+                android:text="sound" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onSilenceClick"
+                android:text="silence" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onStopClick"
+                android:text="stop" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="50dp" />
+
+    <RelativeLayout
+        android:id="@+id/btn_ctrl"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/img_start"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_mic_start" />
+
+
+        <ImageView
+            android:id="@+id/img_circle3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerInParent="true"
+            android:alpha="0"
+            android:background="@drawable/cicle3" />
+
+
+        <ImageView
+            android:id="@+id/img_circle2"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_centerInParent="true"
+            android:alpha="0"
+            android:background="@drawable/cicle2" />
+
+
+        <ImageView
+            android:id="@+id/img_circle1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:alpha="0"
+            android:background="@drawable/cicle1" />
+
+        <ImageView
+            android:id="@+id/img_stop"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_centerInParent="true"
+            android:alpha="0"
+            android:background="@drawable/ic_mic_close" />
+
+    </RelativeLayout>
+
+    <com.example.kyle.forgradle.testview.SoundView
+        android:id="@+id/soundbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onStartClick1"
+                android:text="start" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onSoundClick1"
+                android:text="sound" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onSilenceClick1"
+                android:text="silence" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onStopClick1"
+                android:text="stop" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onDisable"
+                android:text="disable" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onSnackbarClick"
+                android:text="snackbar" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/test_event_bus1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onBtnClick"
+                android:text="test 1" />
+
+            <Button
+                android:id="@+id/test_event_bus2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onBtnClick"
+                android:text="test 2" />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

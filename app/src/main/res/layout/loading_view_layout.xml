@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/loading_rl"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="56dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/loading_circle1"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:visibility="gone"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/circle_blue" />
+
+    <ImageView
+        android:id="@+id/loading_circle2"
+        android:layout_width="12dp"
+        android:visibility="gone"
+        android:layout_height="12dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/circle_red" />
+
+    <ImageView
+        android:id="@+id/loading_circle3"
+        android:layout_width="12dp"
+        android:visibility="gone"
+        android:layout_height="12dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/circle_orange" />
+
+    <ImageView
+        android:id="@+id/loading_circle4"
+        android:layout_width="12dp"
+        android:visibility="gone"
+        android:layout_height="12dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/circle_green" />
+
+
+</RelativeLayout>
